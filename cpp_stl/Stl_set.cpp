@@ -21,16 +21,28 @@ int main(){
         cout<<i<<endl;
     }
 
-    s.erase(s.begin());
+    set<int>::iterator it = s.begin();
+    it++;
+    s.erase(it);
 
     cout<<"After Erase: "<<endl;
     for(int i:s){
         cout<<i<<endl;
     }
 
+    cout<<endl<<s.count(2)<<endl; //counts tell us whether the element passed in it is present in set or not
 
 
+    set<int> :: iterator itr = s.find(2);
 
+    cout<<"Value present at itr: "<<*itr<<endl;
+
+    for(auto it = itr;it!=s.end();it++){
+        cout<<*it<<" ";
+    }cout<<endl;
+
+    //insert,find,erase,count all have time complexity of Ologn
+    //empty,begin,size,end all have time complexity of O(1)
 
     return 0;
 }
