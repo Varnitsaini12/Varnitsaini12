@@ -7,6 +7,7 @@ int highest_mountain(vector<int> a){
 
     int largest = 0;
     for(int i =1; i<=n-2;){
+        //Check whether a[i] is a peak or not
         if(a[i]>a[i-1]  && a[i]>a[i+1]){
                 int cnt = 1;
                 int j = i;
