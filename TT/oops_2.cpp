@@ -8,7 +8,7 @@ class Employee{
         int no_of_leaves;
     
     void display(){
-        cin>>id>>name>>no_of_leaves;
+        cin>>id>>name;
         cout<<"Employee Id: "<<id<<endl;
         cout<<"Employee Name: "<<name<<endl;
         cout<<"No of leaves: "<<no_of_leaves<<endl;
@@ -17,6 +17,7 @@ class Employee{
 
 int main(){
     Employee E1,E2;
+    E1.no_of_leaves = 20;
     // E1.id = 1; 
     // E1.name = "Varnit";  
     // E1.no_of_leaves = 2;

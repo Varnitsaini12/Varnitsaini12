@@ -4,6 +4,7 @@
         "iostream": "cpp",
         "array": "cpp",
         "vector": "cpp",
-        "cstddef": "cpp"
+        "cstddef": "cpp",
+        "istream": "cpp"
     }
 }
