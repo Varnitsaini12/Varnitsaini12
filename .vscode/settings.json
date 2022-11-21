@@ -3,6 +3,8 @@
         "xutility": "cpp",
         "iostream": "cpp",
         "array": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "cstddef": "cpp",
+        "istream": "cpp"
     }
 }
