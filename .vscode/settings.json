@@ -5,6 +5,7 @@
         "array": "cpp",
         "vector": "cpp",
         "cstddef": "cpp",
-        "istream": "cpp"
+        "istream": "cpp",
+        "xlocale": "cpp"
     }
 }
