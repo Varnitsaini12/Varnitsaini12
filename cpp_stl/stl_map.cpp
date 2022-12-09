@@ -1,26 +1,33 @@
-#include <iostream>
-#include<string>
+#include<iostream>
+#include<map>
 using namespace std;
+int main()
+{
+	map<int,string>m;
+	m[1] = "varnit";
+	m[2] = "Saini";
+	m[13] = "Noliyan"; // In case of map the key are sorted and in case of unordered_map the keys are in random manner
 
-int main() {
-	int t; cin>>t;
-	while(t--){
-	    string s="",T="";
-	    cin>>s;
-	    cin>>T;
-	    string M = "";
-	    int n = s.size();
-	    for(int i; i<n;i++){
-	        if(s.at(i)==T.at(i)){
-	            M= M+"G";
-	        }
-	        else
-	          M=M+"B";
-	    }
-	    for(int i = 0; i<M.size(); i++){
-	        cout<<M[i];
-	    }
-	    cout<<endl;
+	m.insert({4,"Mujhe"});
+	cout<<"Before Erase"<<endl;
+	for(auto i:m){
+		cout<<i.first<<" "<<i.second<<endl;
 	}
-	return 0;
+	m.erase(13);
+	cout<<"After Erase"<<endl;
+	for(auto i:m){
+		cout<<i.first<<" "<<i.second<<endl;
+	}
+	cout<<"finding 13 --> "<<m.count(13)<<endl;
+
+	auto it = m.find(4);
+	for(auto i = it; i!=m.end(); i++){
+		cout<<(*i).first<<" "<<(*i).second<<endl;
+	}
+
+	 
+   return 0;
 }
+
+// Complexity of map here is O(logn)
+// In unordered_map complexity is O(1)
