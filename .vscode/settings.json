@@ -6,6 +6,7 @@
         "vector": "cpp",
         "cstddef": "cpp",
         "istream": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "map": "cpp"
     }
 }
