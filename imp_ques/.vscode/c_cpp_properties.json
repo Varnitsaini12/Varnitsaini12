@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:\\games\\opencv"
             ],
             "defines": [
                 "_DEBUG",
@@ -12,9 +13,15 @@
             ],
             "windowsSdkVersion": "10.0.19041.0",
             "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-msvc-x64",
+            "browse": {
+                "path": [
+                    "C:\\games\\opencv"
+                ]
+            },
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4

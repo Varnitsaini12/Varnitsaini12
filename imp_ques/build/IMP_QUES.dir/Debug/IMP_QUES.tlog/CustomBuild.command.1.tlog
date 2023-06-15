@@ -1,0 +1,10 @@
+^C:\USERS\HP\DESKTOP\C\CPP\IMP_QUES\CMAKELISTS.TXT
+setlocal
+C:\games\cmake\bin\cmake.exe -SC:/Users/hp/Desktop/c/cpp/imp_ques -BC:/Users/hp/Desktop/c/cpp/imp_ques/build --check-stamp-file C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

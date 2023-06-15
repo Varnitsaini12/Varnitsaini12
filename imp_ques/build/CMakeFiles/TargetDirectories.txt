@@ -1,0 +1,9 @@
+C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/Experimental.dir
+C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/Nightly.dir
+C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/Continuous.dir
+C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/IMP_QUES.dir
+C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/PACKAGE.dir
+C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/hp/Desktop/c/cpp/imp_ques/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20230611-1406-Experimental"
+	Name="VarnitSaini"
+	Generator="ctest-3.26.3"
+	CompilerName="C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx86/x64/cl.exe"
+	CompilerVersion="19.34.31937.0"
+	OSName="Windows"
+	Hostname="VarnitSaini"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22621)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="17075"
+	TotalPhysicalMemory="16051"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2688"
+	>
+	<Testing>
+		<StartDateTime>Jun 12 01:44 India Standard Time</StartDateTime>
+		<StartTestTime>1686514463</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 12 01:44 India Standard Time</EndDateTime>
+		<EndTestTime>1686514463</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

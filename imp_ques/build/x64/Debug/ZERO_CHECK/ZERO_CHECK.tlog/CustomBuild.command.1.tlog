@@ -1,0 +1,10 @@
+^C:\USERS\HP\DESKTOP\C\CPP\IMP_QUES\BUILD\CMAKEFILES\8582D36A5E3CCFE9B9C572D84B91CD01\GENERATE.STAMP.RULE
+setlocal
+C:\games\cmake\bin\cmake.exe -SC:/Users/hp/Desktop/c/cpp/imp_ques -BC:/Users/hp/Desktop/c/cpp/imp_ques/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hp/Desktop/c/cpp/imp_ques/build/project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
