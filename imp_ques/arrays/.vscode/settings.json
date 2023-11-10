@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "xutility": "cpp",
+        "iostream": "cpp",
+        "iterator": "cpp",
+        "xhash": "cpp",
+        "xmemory": "cpp",
+        "xtree": "cpp",
+        "list": "cpp",
+        "unordered_set": "cpp",
+        "algorithm": "cpp",
+        "vector": "cpp"
+    }
+}

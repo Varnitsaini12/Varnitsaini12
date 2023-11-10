@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-portal</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img.jpg);
+        width: 210vh;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: -24px;
+        top: 0px;
+        font-weight: bolder;
+        text-shadow: 2px 2px orangered, 4px 4px white, 6px 6px green;
+    }
+
+    .mid {
+        /* border: 2px solid blue; */
+        display: block;
+        width: 90%;
+        margin: 180px auto;
+    }
+
+    .right {
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .navbar {
+        display: inline;
+    }
+
+    .navbar li {
+        display: inline;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 10px 12px;
+        color: black;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover {
+        color: blue;
+        background-color: yellow;
+        text-decoration: underline;
+    }
+
+    .logo img {
+        width: 30%;
+        height: 10%;
+    }
+
+    .logo li {
+        display: inline;
+    }
+
+    .logo li a {
+        color: orangered;
+        font-size: 24px;
+        text-decoration: none;
+        font-size: 25px;
+
+    }
+
+    .btn {
+        padding: 4px;
+        margin: 10px 5px;
+        border: 2px solid black;
+        border-radius: 12px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: skyblue;
+        box-shadow: 5px 4px 10px red;
+        /* box-shadow: 2px 2px 2px orangered,4px 4px 2px white,6px 6px 2px green; */
+    }
+
+    .btn:hover {
+        color: red;
+        background-color: yellow;
+
+    }
+
+    .form {
+        color: black;
+        font-weight: bolder;
+        border: 2px solid red;
+        display: flex;
+        margin: 2px 4px;
+        padding: 2px 4px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .status h2 {
+        /* border: 2px solid grey; */
+        /* background-color: blueviolet; */
+        text-align: center;
+        /* font-size: 20px; */
+        margin-top: -120px;
+        text-decoration: underline;
+        text-shadow: 3px 4px 5px black;
+    }
+    .select{
+        border: 2px solid black;
+        text-align: center;
+        background-color: blue;
+        font-size: 20px;
+        padding: 5px 10px;
+        
+    }
+    .select label{
+        padding: 100px;
+        font-size: 24px;
+        text-decoration: underline;
+    }
+    .cases navbar{
+        padding: 10px;
+    }
+    </style>
+
+<body>
+    <div class="header">
+        <div class="left">
+            <ul class="logo">
+                <img src="smart india hackathon.jpg" alt="" srcset="">
+                <li><a href="https://sih.gov.in/">SMART INDIA HACKATHON</a></li>
+            </ul>
+
+
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="http://google.com">Home</a></li>
+                <li><a href="http://google.com">About Us</a></li>
+                <li><a href="http://google.com">Administration</a></li>
+                <li><a href="http://google.com">National Management</a></li>
+                <li><a href="http://google.com">National mission</a></li>
+                <li><a href="http://google.com">eCourt MMP</a></li>
+                <li><a href="http://google.com">Access to justice</a></li>
+                <li><a href="http://google.com">Media Corner</a></li>
+                <li><a href="http://google.com">Dashboard</a></li>
+
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">skip to navigation</button>
+            <button class="btn">skip to main content </button>
+            <button class="btn">site map </button>
+            <button class="btn">laguage</button>
+        </div>
+
+    </div>
+    <div class="status">
+        <h2>Case status</h2>
+    </div>
+
+    <div class="select">
+        <label for="state">State</label>
+        <select name="mystate" id="state">
+            <option value="select">select</option>
+            <option value="cg">chattisgarh</option>
+            <option value="mp">madhya pradesh</option>
+            <option value="guj">gujrat</option>
+            <option value="up">uttar pradesh</option>
+        </select>
+        <label for="District">District</label>
+        <select name="myDistrict" id="District">
+            <option value="select">select</option>
+            <option value="NA">NA</option>
+
+        </select>
+        <label for="Court complex">Court complex</label>
+        <select name="my Court complex" id="Court">
+            <option value="select">select</option>
+            <option value="NA">NA</option>
+        </select>
+    </div>
+    <div class="cases">
+        <ul class="navbar">
+            <li><a href="http://google.com">Home</a></li>
+            <li><a href="http://google.com">About Us</a></li>
+            <li><a href="http://google.com">Administration</a></li>
+            <li><a href="http://google.com">National Management</a></li>
+            <li><a href="http://google.com">National mission</a></li>
+            <li><a href="http://google.com">eCourt MMP</a></li>
+            <li><a href="http://google.com">Access to justice</a></li>
+            <li><a href="http://google.com">Media Corner</a></li>
+            <li><a href="http://google.com">Dashboard</a></li>
+
+        </ul>
+
+    <form action="backend.php" class="form">
+        <div>
+            Petitioner/Respondent: <input type="text" name="myName" ,id="Name">
+
+        </div>
+        <br>
+        <div>
+            Registration date: <input type="datetime" name="date" id="date">
+        </div>
+        <div>
+            are you 18+ : <input type="checkbox">
+        </div>
+        <div class="btn">
+            Go : <input type="GO" name="GO">
+            reset : <input type="reset" name="reset">
+        </div>
+
+
+    </form>
+
+
+</body>
+
+</html>

@@ -1,12 +1,38 @@
 {
-    "files.associations": {
-        "xutility": "cpp",
-        "iostream": "cpp",
-        "array": "cpp",
-        "vector": "cpp",
-        "cstddef": "cpp",
-        "istream": "cpp",
-        "xlocale": "cpp",
-        "map": "cpp"
-    }
+  "files.associations": {
+    "xutility": "cpp",
+    "iostream": "cpp",
+    "array": "cpp",
+    "vector": "cpp",
+    "cstddef": "cpp",
+    "istream": "cpp",
+    "xlocale": "cpp",
+    "map": "cpp",
+    "queue": "cpp",
+    "xstring": "cpp",
+    "deque": "cpp",
+    "exception": "cpp",
+    "ios": "cpp",
+    "iterator": "cpp",
+    "list": "cpp",
+    "memory": "cpp",
+    "mutex": "cpp",
+    "optional": "cpp",
+    "ostream": "cpp",
+    "set": "cpp",
+    "sstream": "cpp",
+    "stack": "cpp",
+    "stop_token": "cpp",
+    "streambuf": "cpp",
+    "thread": "cpp",
+    "tuple": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "utility": "cpp",
+    "xhash": "cpp",
+    "xiosbase": "cpp",
+    "xtree": "cpp",
+    "algorithm": "cpp"
+  },
+  "cmake.sourceDirectory": "C:/Users/hp/Desktop/c/cpp/imp_ques"
 }
