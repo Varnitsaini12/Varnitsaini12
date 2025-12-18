@@ -24,7 +24,7 @@
 `TensorFlow` | `Keras` | `OpenCV` | `Pandas` | `NumPy` | `ResNet-18`
 
 **Cybersecurity:**  
-`Authentication Bypass` | `JWT Role-Based Access` | `IDOR` | `Header Analysis`
+`Web Application Penetration Testing` | `Burp Suite` | `Nmap` | `API Penetration Testing`
 
 **Web & App:**  
 `Flask` | `React` | `Node.js` | `ASPX` | `CUBRID MySQL` | `HTML/CSS`
