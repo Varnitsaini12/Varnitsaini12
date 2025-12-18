@@ -27,7 +27,7 @@
 `Web Application Penetration Testing` | `Burp Suite` | `Nmap` | `API Penetration Testing`
 
 **Web & App:**  
-`Flask` | `React` | `Node.js` | `ASPX` | `CUBRID MySQL` | `HTML/CSS`
+`Flask` | `React` | `Node.js` | `HTML/CSS`
 
 **Tools:**  
 `Git` | `VS Code` | `Postman` | `Linux` | `NVIDIA Collaboration Training`
