@@ -36,6 +36,31 @@
 
 ### 📂 Featured Projects
 
+#### ⚙️ SystemSim – System Design Visualizer (Work-in-Progress)
+- Drag-and-drop architecture components  
+- Servers, DB, cache, queues, load balancers  
+- Simulate request flow and behaviour  
+- Target audience: students, interview prep, companies
+
+#### 🏢 CTZ-Manager — Project Assignment & Team Management
+- A full-stack management system for **projects, task assignments, and status updates**
+- **Role-based authentication** using JWT (Admin / Manager / Employee)
+- Tech stack: **React (frontend)**, **Express.js (backend API)**, **MySQL database**
+- Tracks **project deadlines, updates, member roles, progress**
+- Built with a focus on **secure workflows and access control**
+- Includes dashboard-style UI for monitoring activity
+
+#### 🔗 URL Shortener — System Design Project
+- Designed as a **scalable tiny-URL service**
+- Covers **high-level & low-level design**
+- Uses concepts like:  
+  - Base-62 encoding  
+  - Distributed ID generation  
+  - Caching (Redis)  
+  - Horizontal scaling  
+  - Database sharding & replication  
+- Built for learning **system design interview fundamentals**
+
 #### 🧬 Emotion Detection System (Flagship)
 - ResNet-18 `.h5` custom trained model  
 - Detects face using `face_recognition` + OpenCV  
@@ -53,23 +78,6 @@
 - Upload pictures  
 - Display original image + inferenced image in UI  
 - Confidence threshold (97%) before logging  
-
-#### ⚙️ SystemSim – System Design Visualizer (Work-in-Progress)
-- Drag-and-drop architecture components  
-- Servers, DB, cache, queues, load balancers  
-- Simulate request flow and behaviour  
-- Target audience: students, interview prep, companies  
-
-#### 🛡 Cybersecurity Utilities
-- JWT role authorization validation (`roleName=admin`)  
-- Header encryption/nonce decoding helper  
-- Security testing in legal environment  
-
-#### 📄 Vulnerability Report Generator (DOCX)
-- Python application that uses dummy DB data  
-- Creates formatted **security report in Word DOCX**
-
----
 
 ### 🏆 Highlights & Achievements
 - Trained under **Global Infoventures × NVIDIA**
@@ -90,8 +98,8 @@
 ---
 
 ### 📫 Connect
-📩 Email: **(add your preferred email)**  
-💼 LinkedIn: **(share your profile link)**  
+📩 Email: **varnitsaini2222@gmail.com**  
+💼 LinkedIn: **https://www.linkedin.com/in/varnit-saini-582b9b203/**  
 
 ---
 
