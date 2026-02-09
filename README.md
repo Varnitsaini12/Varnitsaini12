@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Varnit Saini</h1>
-<h3 align="center">AI/ML Engineer | Cybersecurity | System Design Visualizer | Full-Stack Developer</h3>
+<h3 align="center">AI/ML Engineer | Cybersecurity | Full-Stack Developer</h3>
 
 ---
 
